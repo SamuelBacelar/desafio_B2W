@@ -1,0 +1,15 @@
+Listar planetas: GET http://127.0.0.1:8000/api/v1/planets/
+
+Adicionar planeta: POST(JSON: name, climate, terrain, moviesAppearances) http://127.0.0.1:8000/api/v1/planets/
+
+Listar por ID: GET http://127.0.0.1:8000/api/v1/planets/:id
+
+Listar por nome: GET http://127.0.0.1:8000/api/v1/?search=name
+
+Deletar planeta: DELETE http://127.0.0.1:8000/api/v1/planets/:id
+
+Login: POST (JSON:username, password) http://127.0.0.1:8000/api/v1/rest-auth/login/
+
+Logout: POST http://127.0.0.1:8000/api/v1/rest-auth/logout/
+
+Registrar: POST (JSON: name, email, password1, password2) http://127.0.0.1:8000/api/v1/rest-auth/registration/
